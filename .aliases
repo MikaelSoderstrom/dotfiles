@@ -83,5 +83,5 @@ alias path='echo -e ${PATH//:/\\n}'
 alias update-config='cd; curl -#L https://github.com/MikaelSoderstrom/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh,.osx,LICENSE-MIT.txt}'
 
 # Add paths
-alias c='cd /mnt/c'
-alias proj='cd /mnt/c/Projects'
+alias cdproj='cd /mnt/c/Projects'
+alias cdnok='cd /mnt/c/Projects/Osolo/Nok.se'
