@@ -78,3 +78,7 @@ command -v grunt > /dev/null && alias grunt="grunt --stack"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# Add paths
+alias c='cd /mnt/c'
+alias proj='cd /mnt/c/Projects'
